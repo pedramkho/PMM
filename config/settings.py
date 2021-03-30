@@ -9,7 +9,7 @@ import os.path as osp
 # Dataset
 # -----------------------------------------------------------------------------
 ROOT_DIR = osp.abspath(osp.join(osp.dirname(__file__), '..', '..'))
-DATA_DIR = osp.abspath('../Datasets/VOC_LAB/') #data/VOC_new
+DATA_DIR = osp.abspath('/HDD/Pedram/Datasets/') #data/VOC_new
 
 # Dataloader
 mean_vals = [0.485, 0.456, 0.406]

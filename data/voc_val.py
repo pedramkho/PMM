@@ -19,9 +19,9 @@ class voc_val():
         self.group = args.group
         self.num_folds = args.num_folds
         #self.binary_map_dir = os.path.join(settings.DATA_DIR, 'VOCdevkit2012/VOC2012/', 'list/val') #val
-        self.data_list_dir = os.path.join('/content/PMMs/data_list/val')
-        self.img_dir = os.path.join(settings.DATA_DIR, '/content/Datasets/VOC_LAB/VOCdevkit/VOC2012', 'JPEGImages/')
-        self.mask_dir = os.path.join(settings.DATA_DIR, '/content/Datasets/VOC_LAB/VOCdevkit/VOC2012', 'SegmentationClassAug/')
+        self.data_list_dir = os.path.join('/home/guest/PMMs/voc0/PMM/data_list/val')
+        self.img_dir = os.path.join(settings.DATA_DIR, 'VOC2012', 'JPEGImages/')
+        self.mask_dir = os.path.join(settings.DATA_DIR, 'VOC2012', 'SegmentationClass/')
       #self.binary_mask_dir = os.path.join(settings.DATA_DIR, 'VOCdevkit2012/VOC2012/', 'Binary_map_aug/val/')
         self.list_splite = self.get_total_list()
         self.list_splite_len = len(self.list_splite)
