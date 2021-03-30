@@ -26,9 +26,9 @@ class voc_train():
         self.group = args.group
         self.num_folds = args.num_folds
         #self.binary_map_dir = os.path.join(settings.DATA_DIR, 'VOCdevkit2012/VOC2012/', 'Binary_map_aug/train') #val
-        self.data_list_dir = os.path.join('data_list/train')
-        self.img_dir = os.path.join(settings.DATA_DIR, 'VOCdevkit2012/VOC2012/', 'JPEGImages/')
-        self.mask_dir = os.path.join(settings.DATA_DIR, 'VOCdevkit2012/VOC2012/', 'SegmentationClassAug/')
+        self.data_list_dir = os.path.join('/content/PMMs/data_list/train')
+        self.img_dir = os.path.join(settings.DATA_DIR, '/content/Datasets/VOC_LAB/VOCdevkit/VOC2012', 'JPEGImages/')
+        self.mask_dir = os.path.join(settings.DATA_DIR, '/content/Datasets/VOC_LAB/VOCdevkit/VOC2012', 'SegmentationClassAug/')
         #self.binary_mask_dir = os.path.join(settings.DATA_DIR, 'VOCdevkit2012/VOC2012/', 'Binary_map_aug/train/')
 
         self.train_id_list = self.get_train_id_list()
