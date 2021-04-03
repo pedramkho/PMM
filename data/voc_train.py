@@ -28,7 +28,7 @@ class voc_train():
         #self.binary_map_dir = os.path.join(settings.DATA_DIR, 'VOCdevkit2012/VOC2012/', 'Binary_map_aug/train') #val
         self.data_list_dir = os.path.join('/home/guest/PMMs/voc0/PMM/data_list/train') #todo
         self.img_dir = os.path.join(settings.DATA_DIR, 'VOC2012', 'JPEGImages/')
-        self.mask_dir = os.path.join(settings.DATA_DIR, 'VOC2012', 'SegmentationClass/')
+        self.mask_dir = os.path.join(settings.DATA_DIR, 'VOC2012', 'SegmentationClassAug/')
         #self.binary_mask_dir = os.path.join(settings.DATA_DIR, 'VOCdevkit2012/VOC2012/', 'Binary_map_aug/train/')
 
         self.train_id_list = self.get_train_id_list()

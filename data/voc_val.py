@@ -21,7 +21,7 @@ class voc_val():
         #self.binary_map_dir = os.path.join(settings.DATA_DIR, 'VOCdevkit2012/VOC2012/', 'list/val') #val
         self.data_list_dir = os.path.join('/home/guest/PMMs/voc0/PMM/data_list/val')
         self.img_dir = os.path.join(settings.DATA_DIR, 'VOC2012', 'JPEGImages/')
-        self.mask_dir = os.path.join(settings.DATA_DIR, 'VOC2012', 'SegmentationClass/')
+        self.mask_dir = os.path.join(settings.DATA_DIR, 'VOC2012', 'SegmentationClassAug/')
       #self.binary_mask_dir = os.path.join(settings.DATA_DIR, 'VOCdevkit2012/VOC2012/', 'Binary_map_aug/val/')
         self.list_splite = self.get_total_list()
         self.list_splite_len = len(self.list_splite)
